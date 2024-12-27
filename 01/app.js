@@ -18,4 +18,13 @@ const fs = require('fs');
         
 // })
 
-fs.rename("abcd.txt","")
+// fs.rename("abcd.txt","hey.txt",function(err){
+//     if(err) console.log(err);
+//     else console.log("rename completed")
+// })
+
+// for delete file
+// fs.unlink("hey.txt",function(err){
+//     if(err) console.log(err)
+//     else console.log("file deleted")    
+// })
