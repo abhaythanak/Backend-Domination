@@ -1,4 +1,4 @@
- const { log } = require('console');
+//  const { log } = require('console');
 const fs = require('fs');
 
  //   create file
@@ -42,7 +42,7 @@ const fs = require('fs');
 // })
 
 // for delete folder   rmdir is deprecated use only rm
-fs.rm("hey",{recursive: true},function(err){
-    if(err) console.log(err)
-    else console.log("files deleted")    
-})
+// fs.rm("hey",{recursive: true},function(err){
+//     if(err) console.log(err)
+//     else console.log("files deleted")    
+// })
