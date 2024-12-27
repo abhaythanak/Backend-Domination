@@ -28,3 +28,21 @@ const fs = require('fs');
 //     if(err) console.log(err)
 //     else console.log("file deleted")    
 // })
+
+// for folder folder
+// fs.mkdir("hey",function(err){
+//     if(err) console.log(err)
+//     else console.log("file deleted")    
+// })
+
+// // for read folder
+// fs.readdir("hey",{withFileTypes:true},function(err,files){
+//     if(err) console.log(err)
+//     else console.log(files)    
+// })
+
+// for delete folder   rmdir is deprecated use only rm
+fs.rm("hey",{recursive: true},function(err){
+    if(err) console.log(err)
+    else console.log("files deleted")    
+})
