@@ -5,11 +5,18 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <nav>
+        <h3>khata book</h3>
+        <div class="">
+            <a href="/">Home</a>
+            <a href="/create">Create New Hisaab</a>
+        </div>
+    </nav>
     <h1>Create New Hisaab</h1>
-    <form action="/create-hisaab" method="POST">
-        <input type="text" name="date" placeholder="Enter date (e.g., 24-04-2024)" required>
+    <form action="/createhisaab" method="POST">
+        <input type="text" name="title" placeholder="Enter date (e.g., 24-04-2024)" required>
         <br><br>
-        <textarea name="hisaab" rows="5" cols="40" placeholder="Write your hisaab details here..." required></textarea>
+        <textarea name="content" rows="5" cols="40" placeholder="Write your hisaab details here..." required></textarea>
         <br><br>
         <button type="submit">Create Hisaab</button>
     </form>

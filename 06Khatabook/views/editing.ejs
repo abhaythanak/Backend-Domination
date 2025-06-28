@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>Your Editing Hisaab of 24-04-2024</h1>
-    <form action="" method="post">
-        <textarea name="hisaab" rows="5" cols="40"><%= record.details %></textarea>
+    <h1><%= filename.split(".")[0] %></h1>
+    <form action="/update/<%= filename %>" method="post">
+        <textarea name="content" rows="5" cols="40"> <%= filedata%> </textarea>
         <br>
         <button type="submit">Update Hisaab</button>
     </form>
