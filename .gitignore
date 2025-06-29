@@ -1,1 +1,12 @@
-node_modules
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE stuff
+.vscode/
+.DS_Store
